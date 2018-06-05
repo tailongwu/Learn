@@ -1,1 +1,2 @@
-This is the fist commit.
+This is the first commit.
+This is the second commit.
