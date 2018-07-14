@@ -1,4 +1,4 @@
-export function counter(state, action) {
+export default function counter(state, action) {
     state = state || { value: 0 };
     switch (action.type) {
         case 'ADD':

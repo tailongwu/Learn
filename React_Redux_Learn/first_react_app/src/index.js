@@ -7,9 +7,9 @@ import ReactTest from './react/ReactTest';
 import registerServiceWorker from './registerServiceWorker';
 import ReduxTest from './redux/ReduxTest';
 import Provider from 'react-redux/lib/components/Provider';
-import { counter } from './redux/Store';
+import reducers from './redux/reducers/index';
 
-var store = createStore(counter);
+var store = createStore(reducers);
 ReactDOM.render((
     <div>
         <ReactTest />
