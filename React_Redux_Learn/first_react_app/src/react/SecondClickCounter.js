@@ -1,4 +1,5 @@
 import React from 'react';
+import { stringFormat } from '../Utilities';
 
 class SecondClickCounter extends React.Component {
   constructor(props) {
@@ -6,10 +7,10 @@ class SecondClickCounter extends React.Component {
   }
 
   render() {
+    var content = stringFormat('The second counter: {0}', this.props.currentValue);
     return (
       <div>
-        <div>The second counter</div>
-        <div>{this.props.currentValue}</div>
+        <div>{content}</div>
       </div>
     );
   }

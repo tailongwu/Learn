@@ -5,7 +5,7 @@ import SecondClickCounter from './SecondClickCounter';
 import ThirdClickCounter from './ThirdClickCounter';
 import Time from './Time';
 
-class Test extends React.Component {
+export default class ReactTest extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,4 +42,3 @@ class Test extends React.Component {
   }
 }
 
-export default Test;
