@@ -1,15 +1,17 @@
-export default function counter(state, action) {
+import ActionType from '../ActionType';
+
+export default function factor1(state, action) {
     state = state || { value: 0 };
     switch (action.type) {
-        case 'ADD':
+        case ActionType.Factor1Add:
             return {
                 value: state.value + 1
             };
-        case 'MINUS':
+        case ActionType.Factor1Minus:
             return {
                 value: state.value - 1
             };
         default:
-            return state.value;
+            return state;
     }
 }

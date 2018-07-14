@@ -2,7 +2,8 @@ import { createStore } from 'redux';
 import React from 'react';
 import { connect } from 'react-redux';
 
-
+import ActionType from './ActionType';
+import { stringFormat } from '../Utilities';
 
 export class _ReduxTest extends React.Component {
     constructor(props) {
@@ -10,20 +11,23 @@ export class _ReduxTest extends React.Component {
     }
 
     render() {
-        const { value, add, minus } = this.props;
+        const { value1, value2, factor1Add, factor1Minus, factor2Add, factor2Minus } = this.props;
+        const content1 = stringFormat('Value1: {0}', value1);
+        const content2 = stringFormat('Value2: {0}', value2);
         return (
             <div>
                 <div>
-                    {'Redux test'}
+                    {'Redux test:'}
                 </div>
                 <div>
-                    {value}
+                    <span>{content1}</span>
+                    <button onClick={() => { factor1Add() }}>+</button>
+                    <button onClick={() => { factor1Minus() }}>-</button>
                 </div>
                 <div>
-                    <button onClick={add}>
-                        +
-                    </button>
-                    <div>{this.props.valur}</div>
+                    <span>{content2}</span>
+                    <button onClick={() => { factor2Add() }}>+</button>
+                    <button onClick={() => { factor2Minus() }}>-</button>
                 </div>
             </div>
         );
@@ -31,13 +35,16 @@ export class _ReduxTest extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        value: state.value
+        value1: state.factor1.value,
+        value2: state.factor2.value
     };
 }
 function mapDispatchToProps(dispatch) {
     return {
-        add: () => dispatch({ type: 'ADD' }),
-        minus: () => dispatch({ type: 'MINUS' })
+        factor1Add: () => dispatch({ type: ActionType.Factor1Add }),
+        factor1Minus: () => dispatch({ type: ActionType.Factor1Minus }),
+        factor2Add: () => dispatch({ type: ActionType.Factor2Add }),
+        factor2Minus: () => dispatch({ type: ActionType.Factor2Minus })
     };
 }
 const ReduxTest = connect(mapStateToProps, mapDispatchToProps)(_ReduxTest);

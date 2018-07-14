@@ -16,27 +16,31 @@ export default class ReactTest extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={() => {
-          this.setState({
-            count: this.state.count + 1
-          });
-        }}>
-          +
+        <div>{'React test:'}</div>
+        <div>
+          <button onClick={() => {
+            this.setState({
+              count: this.state.count + 1
+            });
+          }}>
+            +
         </button>
-        <button onClick={() => {
-          console.log('Before ' + this.state.count);
-          this.setState({
-            count: this.state.count - 1
-          });
-          console.log('After ' + this.state.count);
-        }}>
-          -
+          <button onClick={() => {
+            console.log('Before ' + this.state.count);
+            this.setState({
+              count: this.state.count - 1
+            });
+            console.log('After ' + this.state.count);
+          }}>
+            -
         </button>
-        <div>{this.state.count}</div>
-        <FirstClickCounter currentValue={this.state.count} />
-        <SecondClickCounter currentValue={this.state.count} />
-        <ThirdClickCounter currentValue={this.state.count } />
-        <Time />
+          <div>{this.state.count}</div>
+          <FirstClickCounter currentValue={this.state.count} />
+          <SecondClickCounter currentValue={this.state.count} />
+          <ThirdClickCounter currentValue={this.state.count} />
+          <Time />
+        </div>
+        <div>{'--------------------------------------------'}</div>
       </div>
     );
   }
