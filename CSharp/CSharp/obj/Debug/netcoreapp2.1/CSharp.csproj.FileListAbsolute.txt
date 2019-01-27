@@ -1,0 +1,4 @@
+D:\Git\Learn\CSharp\CSharp\obj\Debug\netcoreapp2.1\CSharp.csprojAssemblyReference.cache
+D:\Git\Learn\CSharp\CSharp\obj\Debug\netcoreapp2.1\CSharp.csproj.CoreCompileInputs.cache
+D:\Git\Learn\CSharp\CSharp\obj\Debug\netcoreapp2.1\CSharp.AssemblyInfoInputs.cache
+D:\Git\Learn\CSharp\CSharp\obj\Debug\netcoreapp2.1\CSharp.AssemblyInfo.cs
