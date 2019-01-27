@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreAuth", "NetCoreAuth\NetCoreAuth.csproj", "{F8F08257-A698-4716-A097-C34F0FA93EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8F08257-A698-4716-A097-C34F0FA93EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F08257-A698-4716-A097-C34F0FA93EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F08257-A698-4716-A097-C34F0FA93EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F08257-A698-4716-A097-C34F0FA93EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B529F885-1303-4AF6-BB7F-18910484A44C}
+	EndGlobalSection
+EndGlobal
