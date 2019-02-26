@@ -1,13 +1,13 @@
 var gulp = require('gulp');
 
 // gulp task
-gulp.task('default', function(){
+gulp.task('task1', function(){
 	console.log('Hello world');
 });
 // gulp task: multiple tasks
-gulp.task('default2',  function(){
+gulp.task('task2', gulp.series('task1', function(){
 	console.log('Hello world2');
-});
+}));
 
 // gulp src and gulp dest
 // copy file to dist
