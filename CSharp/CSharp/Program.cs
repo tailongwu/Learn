@@ -6,7 +6,8 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DelegateTest delegateTest = new DelegateTest();
+            delegateTest.Test();
         }
     }
 }
