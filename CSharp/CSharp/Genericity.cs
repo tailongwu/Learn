@@ -7,7 +7,6 @@ namespace CSharp
     class Genericity
     {
         O<int> x = new O<int>(1, 2);
-        x.
     }
 
     public class O<T>
