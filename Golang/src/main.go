@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"userinfo"
 )
 
 func Print(args ...int) (x, y int) {
@@ -24,15 +23,34 @@ func Sum(n int) (sum int) {
 	}
 }
 
+func Sort(arr []int) {
+	arr = append(arr, 1, 2, 3, 4)
+	sum := 0
+	for _, data := range arr {
+		sum += data
+	}
+	fmt.Println(sum)
+}
+
 func main () {
-	userinfo.Userlogin()
-	test()
-	fmt.Println(Sum(10))
+	//var a []int = []int{1, 2, 3, 4, 5}
+	//fmt.Println(cap(a))
+	//slice := make([]int, 4, 10)
+	//copy(slice, a)
+	//Sort(a)
+	//fmt.Println(a)
 
+	var m map[string]string = map[string]string{}
+	m["a"] = "A"
+	delete(m, "a")
+	delete(m, "a")
+	fmt.Println(m["b"] == "")
 
-
-	fmt.Println("hello world")
-	f := Print
-	fmt.Println(f(1, 2, 3, 4))
-	fmt.Printf("%T", f)
+	//userinfo.Userlogin()
+	//test()
+	//fmt.Println(Sum(10))
+	//fmt.Println("hello world")
+	//f := Print
+	//fmt.Println(f(1, 2, 3, 4))
+	//fmt.Printf("%T", f)
 }
