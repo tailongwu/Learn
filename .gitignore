@@ -1,2 +1,8 @@
 .vs
 Debug/
+Java/.idea/
+Java/apache-maven*/
+Java/apache-tomcat*/
+Java/jdk/
+Java/jetbrains-agent/
+Java/repository/
