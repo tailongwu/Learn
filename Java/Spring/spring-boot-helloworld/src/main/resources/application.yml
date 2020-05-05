@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/springtest
+    driver-class-name: com.mysql.jdbc.Driver
+debug: true
+---
+spring:
+  profiles: dev
+server:
+  port: 8081
+---
+spring:
+  profiles: staging
+server:
+  port: 8082
+---
+spring:
+  profiles: prod
+server:
+  port: 8083
