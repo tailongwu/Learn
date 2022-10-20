@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var socket;
+    if (window.WebSocket) {
+        socket = new WebSocket("ws://localhost:8080/hello")
+        socket.onmessage = function (ev) {
+            var rt = document.getElementById("responseText");
+            rt.value = rt.valueOf() + "\n" + ev.data;
+        }
+        socket.onopen = function (ev) {
+            var rt = document.getElementById("responseText");
+            rt.value = "connection started...";
+        }
+        socket.onclose = function (ev) {
+            var rt = document.getElementById("responseText");
+            rt.value = rt.value + "\n" + "connection closed...";
+        }
+    } else {
+        alert("websocket isn't supported");
+    }
+
+    function send(message) {
+        if (!window.socket) {
+            return
+        }
+        if (socket.readyState == WebSocket.OPEN) {
+            socket.send(message);
+        } else {
+            alert("connection isn't opened")
+        }
+    }
+</script>
+    <form onsubmit="return false">
+        <textarea name="message" style="height:300px; width:300px"></textarea>
+        <input type="button" value="SendMsg" onclick="send(this.form.message.value)">
+        <textarea id="responseText" style="height:300px; width:300px"></textarea>
+        <input type="button" value="CleanMsg" onclick="document.getElementById('responseText').value=''">
+    </form>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd576883-d342-4449-85cc-82163515f896" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/concurrencypractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch16/goroutine/goroutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/share_mem/share_mem_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/select/select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/cpu.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/mem.prof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/prof.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/prof.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/profile001.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/profile002.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch46/tools/file/profile003.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mutex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/codec/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/codec/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/codec/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/codec/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/groupchat/GroupChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/http/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/http/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/http/TestServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/protocoltcp/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/simple/StudentPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/tcp/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/websocket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/netty/websocket/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/nio/MappedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/nio/NIOFileChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/nio/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/concurrency1/src/main/java/nio/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/main/java/netty/channel/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/main/java/netty/channel/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/main/java/netty/channel/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/main/java/netty/channel/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/test/java/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/practice/src/test/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scala/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scala/HelloWorld/src/HelloWorld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Scala/HelloWorld/src/Test1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Git\Packages\go1.16.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="20tNuvr4IY1hKo28QQST9TNrUOW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projects/visualizer/visualizer-client" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestCloseChannel in select_test.go">
+    <configuration name="TestCloseChannel in select_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="concurrencypractice" />
+      <working_directory value="$PROJECT_DIR$/ch19/select" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch19/select/select_test.go" />
+      <pattern value="^\QTestCloseChannel\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounter in share_mem_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="concurrencypractice" />
+      <working_directory value="$PROJECT_DIR$/ch17/share_mem" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch17/share_mem/share_mem_test.go" />
+      <pattern value="^\QTestCounter\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounterWaitGroup in share_mem_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="concurrencypractice" />
+      <working_directory value="$PROJECT_DIR$/ch17/share_mem" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch17/share_mem/share_mem_test.go" />
+      <pattern value="^\QTestCounterWaitGroup\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGoroutine in goroutine_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="concurrencypractice" />
+      <working_directory value="$PROJECT_DIR$/ch16/goroutine" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch16/goroutine/goroutine_test.go" />
+      <pattern value="^\QTestGoroutine\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSelect in select_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="concurrencypractice" />
+      <working_directory value="$PROJECT_DIR$/ch19/select" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch19/select/select_test.go" />
+      <pattern value="^\QTestSelect\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCloseChannel in select_test.go" />
+        <item itemvalue="Go Test.TestSelect in select_test.go" />
+        <item itemvalue="Go Test.TestCounterWaitGroup in share_mem_test.go" />
+        <item itemvalue="Go Test.TestCounter in share_mem_test.go" />
+        <item itemvalue="Go Test.TestGoroutine in goroutine_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="904" y="370" key="FileChooserDialogImpl" timestamp="1661602381453">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="904" y="370" key="FileChooserDialogImpl/-2560.0.2048.1104/0.0.2048.1104@0.0.2048.1104" timestamp="1661602381453" />
+    <state width="1386" height="363" key="GridCell.Tab.0.bottom" timestamp="1658671819593">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1386" height="363" key="GridCell.Tab.0.bottom/0.0.2048.1104@0.0.2048.1104" timestamp="1658671819593" />
+    <state width="1386" height="363" key="GridCell.Tab.0.center" timestamp="1658671819593">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1386" height="363" key="GridCell.Tab.0.center/0.0.2048.1104@0.0.2048.1104" timestamp="1658671819593" />
+    <state width="1386" height="363" key="GridCell.Tab.0.left" timestamp="1658671819593">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1386" height="363" key="GridCell.Tab.0.left/0.0.2048.1104@0.0.2048.1104" timestamp="1658671819593" />
+    <state width="1386" height="363" key="GridCell.Tab.0.right" timestamp="1658671819593">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1386" height="363" key="GridCell.Tab.0.right/0.0.2048.1104@0.0.2048.1104" timestamp="1658671819593" />
+    <state x="1198" y="246" key="search.everywhere.popup" timestamp="1658650740548">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="1198" y="246" key="search.everywhere.popup/0.0.2048.1104@0.0.2048.1104" timestamp="1658650740548" />
+  </component>
+</project>
